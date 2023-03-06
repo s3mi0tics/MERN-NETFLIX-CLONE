@@ -11,7 +11,7 @@ const initialState = {
     genresLoaded: false,
     genres: [],
 }
- 
+
 export const getGenres = createAsyncThunk("netflix/genres", async () => {
     const {
         data: { genres },
